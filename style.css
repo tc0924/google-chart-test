@@ -1,3 +1,17 @@
-.chart{
-    width: 80%;
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+}
+.flex-item:nth-child(1) {
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+.flex-item:nth-child(2) {
+    -webkit-flex: 0 0 320px;
+    flex: 0 0 320px;
+    background-color: greenyellow;
 }
